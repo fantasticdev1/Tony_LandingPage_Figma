@@ -139,11 +139,13 @@
 };
 
 $body-bg-color: #ffffff;
+$header-bg-color: #261107;
 $section-bg-color: #fbfbfc;
 
 $primary-font-color: #333f4d;
 
 $primary-btn-color: #537de6;
+$secondary-btn-color: #fe7200;
 
 $primary-border-color: #39bd81;
 
@@ -170,6 +172,10 @@ body {
   margin: 0;
   font-family: calibreBold;
   background-color: $body-bg-color;
+}
+
+h1 {
+  @include font(calibreSemibold, 66px, 65px, $section-bg-color);
 }
 
 h2 {
@@ -199,9 +205,53 @@ span, a, img {
   -webkit-tap-highlight-color: transparent;
 }
 
-header,
-footer {
+header {
+  position: relative;
   width: 100%;
+  height: 870px;
+  background:url("../assets/image/hero-image-01.png") no-repeat center bottom;
+  background-size: cover;
+  .nav-container {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    @include flex(row, center, center);
+    .navbar-nav .nav-link {
+      @include font(calibreMedium, 18px, 14px, $section-bg-color);
+    }
+    .navbar-toggler {
+      color: $section-bg-color;
+      border-color: $section-bg-color;
+    }
+    .btn-book {
+      width: 134px;
+      background-color: $secondary-btn-color;
+      box-shadow: 0px 15px 50px -15px $secondary-btn-color;
+    }
+    .btn-signin {
+      width: 90px;
+      background-color: rgba($body-bg-color, 0.1);
+      box-shadow: 0px 15px 50px -15px rgba($body-bg-color, 0.1);
+    }
+  }
+  .intro-container {
+    width: 100%;
+    height: 100%;
+    @include flex(row, center, flex-start);
+    .intro {
+      @include flex(column, flex-start, center);
+      max-width: 700px;
+      .description {
+        @include font(calibreMedium, 25px, 30px, $section-bg-color);
+      }
+      .btn-book {
+        width: 176px;
+        background-color: $secondary-btn-color;
+        box-shadow: 0px 15px 50px -15px $secondary-btn-color;
+      }
+    }
+  }
 }
 
 section {
@@ -277,7 +327,7 @@ section {
   }
 }
 
-.btn-book {
+.btn-book, .btn-signin {
   background-color: $primary-btn-color;
   @include font(calibreMedium, 18px, 14px, $body-bg-color);
   border-radius: 4px;
