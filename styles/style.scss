@@ -200,10 +200,8 @@ span, a, img {
 }
 
 header,
-footer  {
+footer {
   width: 100%;
-  height: 500px;
-  background-color: gray;
 }
 
 section {
@@ -289,3 +287,28 @@ section {
   box-shadow: 0px 15px 50px -15px $primary-btn-color;
 }
 
+footer {
+  @include flex(column, center, center);
+  ul {
+    @include flex(row, center, center);
+    li {
+      display: inline;
+      list-style-type: none;
+      a {
+        @include font(calibreMedium, 18px, 14px, $primary-font-color);
+        text-decoration: none;
+        opacity: 0.5;
+        &:visited {
+          text-decoration: none;
+        }
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  .copyright {
+    @include font(calibreRegular, 14px, 17px, $primary-font-color);
+    opacity: 0.5;
+  }
+}
