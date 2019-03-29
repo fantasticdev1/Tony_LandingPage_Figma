@@ -226,6 +226,11 @@ section {
       @include flex(column, flex-start, flex-start);
     }
   }
+  &.a-management-layer {
+    img {
+      width: 100%;
+    }
+  }
 }
 
 .img-card {
@@ -244,6 +249,12 @@ section {
   background-color: $body-bg-color;
   border-radius: 8px;
   border-left: solid 7px $primary-border-color;
+}
+
+.top-border-card {
+  background-color: $body-bg-color;
+  border-radius: 8px;
+  border-top: solid 7px $primary-border-color;
 }
 
 .btn-book {
