@@ -1,0 +1,234 @@
+@font-face {
+  font-family: calibreBlack;
+  src: url('../assets/font/Calibre/CalibreWeb-Black.eot'); /* IE9 Compat Modes */
+  src: url('../assets/font/Calibre/CalibreWeb-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../assets/font/Calibre/CalibreWeb-Black.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../assets/font/Calibre/CalibreWeb-Black.woff') format('woff'), /* Modern Browsers */
+       url('../assets/font/Calibre/CalibreWeb-Black.woff2') format('woff2'); /* Legacy iOS */
+  font-weight: bold;
+};
+
+@font-face {
+  font-family: calibreBlackItalic;
+  src: url('../assets/font/Calibre/CalibreWeb-BlackItalic.eot');
+  src: url('../assets/font/Calibre/CalibreWeb-BlackItalic.eot?#iefix') format('embedded-opentype'),
+  url('../assets/font/Calibre/CalibreWeb-BlackItalic.ttf')  format('truetype'),
+       url('../assets/font/Calibre/CalibreWeb-BlackItalic.woff') format('woff'),
+       url('../assets/font/Calibre/CalibreWeb-BlackItalic.woff2') format('woff2');
+  font-weight: bold;
+};
+
+@font-face {
+  font-family: calibreBold;
+  src: url('../assets/font/Calibre/CalibreWeb-Bold.eot');
+  src: url('../assets/font/Calibre/CalibreWeb-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../assets/font/Calibre/CalibreWeb-Bold.ttf')  format('truetype'),
+       url('../assets/font/Calibre/CalibreWeb-Bold.woff') format('woff'),
+       url('../assets/font/Calibre/CalibreWeb-Bold.woff2') format('woff2');
+  font-weight: bold;
+};
+
+@font-face {
+  font-family: calibreBoldItalic;
+  src: url('../assets/font/Calibre/CalibreWeb-BoldItalic.eot');
+  src: url('../assets/font/Calibre/CalibreWeb-BoldItalic.eot?#iefix') format('embedded-opentype'),
+  url('../assets/font/Calibre/CalibreWeb-BoldItalic.ttf')  format('truetype'),
+       url('../assets/font/Calibre/CalibreWeb-BoldItalic.woff') format('woff'),
+       url('../assets/font/Calibre/CalibreWeb-BoldItalic.woff2') format('woff2');
+  font-weight: bold;
+};
+
+@font-face {
+  font-family: calibreLight;
+  src: url('../assets/font/Calibre/CalibreWeb-Light.eot');
+  src: url('../assets/font/Calibre/CalibreWeb-Light.eot?#iefix') format('embedded-opentype'),
+  url('../assets/font/Calibre/CalibreWeb-Light.ttf')  format('truetype'),
+       url('../assets/font/Calibre/CalibreWeb-Light.woff') format('woff'),
+       url('../assets/font/Calibre/CalibreWeb-Light.woff2') format('woff2');
+  font-weight: bold;
+};
+
+@font-face {
+  font-family: calibreLightItalic;
+  src: url('../assets/font/Calibre/CalibreWeb-LightItalic.eot');
+  src: url('../assets/font/Calibre/CalibreWeb-LightItalic.eot?#iefix') format('embedded-opentype'),
+  url('../assets/font/Calibre/CalibreWeb-LightItalic.ttf')  format('truetype'),
+       url('../assets/font/Calibre/CalibreWeb-LightItalic.woff') format('woff'),
+       url('../assets/font/Calibre/CalibreWeb-LightItalic.woff2') format('woff2');
+  font-weight: bold;
+};
+
+@font-face {
+  font-family: calibreMedium;
+  src: url('../assets/font/Calibre/CalibreWeb-Medium.eot');
+  src: url('../assets/font/Calibre/CalibreWeb-Medium.eot?#iefix') format('embedded-opentype'),
+  url('../assets/font/Calibre/CalibreWeb-Medium.ttf')  format('truetype'),
+       url('../assets/font/Calibre/CalibreWeb-Medium.woff') format('woff'),
+       url('../assets/font/Calibre/CalibreWeb-Medium.woff2') format('woff2');
+  font-weight: bold;
+};
+
+@font-face {
+  font-family: calibreMediumItalic;
+  src: url('../assets/font/Calibre/CalibreWeb-MediumItalic.eot');
+  src: url('../assets/font/Calibre/CalibreWeb-MediumItalic.eot?#iefix') format('embedded-opentype'),
+  url('../assets/font/Calibre/CalibreWeb-MediumItalic.ttf')  format('truetype'),
+       url('../assets/font/Calibre/CalibreWeb-MediumItalic.woff') format('woff'),
+       url('../assets/font/Calibre/CalibreWeb-MediumItalic.woff2') format('woff2');
+  font-weight: bold;
+};
+
+@font-face {
+  font-family: calibreRegular;
+  src: url('../assets/font/Calibre/CalibreWeb-Regular.eot');
+  src: url('../assets/font/Calibre/CalibreWeb-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../assets/font/Calibre/CalibreWeb-Regular.ttf')  format('truetype'),
+       url('../assets/font/Calibre/CalibreWeb-Regular.woff') format('woff'),
+       url('../assets/font/Calibre/CalibreWeb-Regular.woff2') format('woff2');
+  font-weight: bold;
+};
+
+@font-face {
+  font-family: calibreRegularItalic;
+  src: url('../assets/font/Calibre/CalibreWeb-RegularItalic.eot');
+  src: url('../assets/font/Calibre/CalibreWeb-RegularItalic.eot?#iefix') format('embedded-opentype'),
+  url('../assets/font/Calibre/CalibreWeb-RegularItalic.ttf')  format('truetype'),
+       url('../assets/font/Calibre/CalibreWeb-RegularItalic.woff') format('woff'),
+       url('../assets/font/Calibre/CalibreWeb-RegularItalic.woff2') format('woff2');
+  font-weight: bold;
+};
+
+@font-face {
+  font-family: calibreSemibold;
+  src: url('../assets/font/Calibre/CalibreWeb-Semibold.eot');
+  src: url('../assets/font/Calibre/CalibreWeb-Semibold.eot?#iefix') format('embedded-opentype'),
+  url('../assets/font/Calibre/CalibreWeb-Semibold.ttf')  format('truetype'),
+       url('../assets/font/Calibre/CalibreWeb-Semibold.woff') format('woff'),
+       url('../assets/font/Calibre/CalibreWeb-Semibold.woff2') format('woff2');
+  font-weight: bold;
+};
+
+@font-face {
+  font-family: calibreSemiboldItalic;
+  src: url('../assets/font/Calibre/CalibreWeb-SemiboldItalic.eot');
+  src: url('../assets/font/Calibre/CalibreWeb-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
+  url('../assets/font/Calibre/CalibreWeb-SemiboldItalic.ttf')  format('truetype'),
+       url('../assets/font/Calibre/CalibreWeb-SemiboldItalic.woff') format('woff'),
+       url('../assets/font/Calibre/CalibreWeb-SemiboldItalic.woff2') format('woff2');
+  font-weight: bold;
+};
+
+@font-face {
+  font-family: calibreThin;
+  src: url('../assets/font/Calibre/CalibreWeb-Thin.eot');
+  src: url('../assets/font/Calibre/CalibreWeb-Thin.eot?#iefix') format('embedded-opentype'),
+  url('../assets/font/Calibre/CalibreWeb-Thin.ttf')  format('truetype'),
+       url('../assets/font/CalibreWeb-Thin.woff') format('woff'),
+       url('../assets/font/CalibreWeb-Thin.woff2') format('woff2');
+  font-weight: bold;
+};
+
+@font-face {
+  font-family: calibreThinItalic;
+  src: url('../assets/font/Calibre/CalibreWeb-ThinItalic.eot');
+  src: url('../assets/font/Calibre/CalibreWeb-ThinItalic.eot?#iefix') format('embedded-opentype'),
+  url('../assets/font/Calibre/CalibreWeb-ThinItalic.ttf')  format('truetype'),
+       url('../assets/font/Calibre/CalibreWeb-ThinItalic.woff') format('woff'),
+       url('../assets/font/Calibre/CalibreWeb-ThinItalic.woff2') format('woff2');
+  font-weight: bold;
+};
+
+$body-bg-color: #ffffff;
+$section-bg-color: #fbfbfc;
+
+$primary-font-color: #333f4d;
+
+$primary-btn-color: #537de6;
+
+@mixin flex($direction, $align, $content) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: $align;
+  justify-content: $content;
+  flex-wrap: wrap;
+}
+
+@mixin font($font-family, $font-size, $line-height, $font-color) {
+  font-family: $font-family;
+  font-size: $font-size;
+  line-height: $line-height;
+  color: $font-color;
+}
+
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+  font-family: calibreBold;
+  background-color: $body-bg-color;
+}
+
+h2 {
+  @include font(calibreMedium, 36px, 37px, $primary-font-color);
+}
+
+h3 {
+  @include font(calibreSemibold, 28px, 34px, $primary-font-color);
+}
+
+p {
+  @include font(calibreRegular, 18px, 28px, $primary-font-color);
+}
+
+span, a, img {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent;
+}
+
+header,
+footer  {
+  width: 100%;
+  height: 500px;
+  background-color: gray;
+}
+
+section {
+  background: $section-bg-color;
+  @include flex(column, center, center);
+  &.why-use-purview {
+    .btn-book {
+      width: 176px;
+    }
+  }
+  &.enable-your-frontline {
+
+  }
+}
+
+.img-card {
+  color: #333f4d;
+  @include flex(column, center, flex-start);
+  img {
+    width: 134px;
+    height: 134px;
+  }
+  .description {
+    opacity: 0.7;
+  }
+}
+
+.btn-book {
+  background-color: $primary-btn-color;
+  @include font(calibreMedium, 18px, 14px, $body-bg-color);
+  border-radius: 4px;
+  height: 50px;
+}
+

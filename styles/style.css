@@ -1,0 +1,177 @@
+@font-face {
+  font-family: calibreBlack;
+  src: url("../assets/font/Calibre/CalibreWeb-Black.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/font/Calibre/CalibreWeb-Black.eot?#iefix") format("embedded-opentype"), url("../assets/font/Calibre/CalibreWeb-Black.ttf") format("truetype"), url("../assets/font/Calibre/CalibreWeb-Black.woff") format("woff"), url("../assets/font/Calibre/CalibreWeb-Black.woff2") format("woff2");
+  /* Legacy iOS */
+  font-weight: bold;
+}
+@font-face {
+  font-family: calibreBlackItalic;
+  src: url("../assets/font/Calibre/CalibreWeb-BlackItalic.eot");
+  src: url("../assets/font/Calibre/CalibreWeb-BlackItalic.eot?#iefix") format("embedded-opentype"), url("../assets/font/Calibre/CalibreWeb-BlackItalic.ttf") format("truetype"), url("../assets/font/Calibre/CalibreWeb-BlackItalic.woff") format("woff"), url("../assets/font/Calibre/CalibreWeb-BlackItalic.woff2") format("woff2");
+  font-weight: bold;
+}
+@font-face {
+  font-family: calibreBold;
+  src: url("../assets/font/Calibre/CalibreWeb-Bold.eot");
+  src: url("../assets/font/Calibre/CalibreWeb-Bold.eot?#iefix") format("embedded-opentype"), url("../assets/font/Calibre/CalibreWeb-Bold.ttf") format("truetype"), url("../assets/font/Calibre/CalibreWeb-Bold.woff") format("woff"), url("../assets/font/Calibre/CalibreWeb-Bold.woff2") format("woff2");
+  font-weight: bold;
+}
+@font-face {
+  font-family: calibreBoldItalic;
+  src: url("../assets/font/Calibre/CalibreWeb-BoldItalic.eot");
+  src: url("../assets/font/Calibre/CalibreWeb-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../assets/font/Calibre/CalibreWeb-BoldItalic.ttf") format("truetype"), url("../assets/font/Calibre/CalibreWeb-BoldItalic.woff") format("woff"), url("../assets/font/Calibre/CalibreWeb-BoldItalic.woff2") format("woff2");
+  font-weight: bold;
+}
+@font-face {
+  font-family: calibreLight;
+  src: url("../assets/font/Calibre/CalibreWeb-Light.eot");
+  src: url("../assets/font/Calibre/CalibreWeb-Light.eot?#iefix") format("embedded-opentype"), url("../assets/font/Calibre/CalibreWeb-Light.ttf") format("truetype"), url("../assets/font/Calibre/CalibreWeb-Light.woff") format("woff"), url("../assets/font/Calibre/CalibreWeb-Light.woff2") format("woff2");
+  font-weight: bold;
+}
+@font-face {
+  font-family: calibreLightItalic;
+  src: url("../assets/font/Calibre/CalibreWeb-LightItalic.eot");
+  src: url("../assets/font/Calibre/CalibreWeb-LightItalic.eot?#iefix") format("embedded-opentype"), url("../assets/font/Calibre/CalibreWeb-LightItalic.ttf") format("truetype"), url("../assets/font/Calibre/CalibreWeb-LightItalic.woff") format("woff"), url("../assets/font/Calibre/CalibreWeb-LightItalic.woff2") format("woff2");
+  font-weight: bold;
+}
+@font-face {
+  font-family: calibreMedium;
+  src: url("../assets/font/Calibre/CalibreWeb-Medium.eot");
+  src: url("../assets/font/Calibre/CalibreWeb-Medium.eot?#iefix") format("embedded-opentype"), url("../assets/font/Calibre/CalibreWeb-Medium.ttf") format("truetype"), url("../assets/font/Calibre/CalibreWeb-Medium.woff") format("woff"), url("../assets/font/Calibre/CalibreWeb-Medium.woff2") format("woff2");
+  font-weight: bold;
+}
+@font-face {
+  font-family: calibreMediumItalic;
+  src: url("../assets/font/Calibre/CalibreWeb-MediumItalic.eot");
+  src: url("../assets/font/Calibre/CalibreWeb-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../assets/font/Calibre/CalibreWeb-MediumItalic.ttf") format("truetype"), url("../assets/font/Calibre/CalibreWeb-MediumItalic.woff") format("woff"), url("../assets/font/Calibre/CalibreWeb-MediumItalic.woff2") format("woff2");
+  font-weight: bold;
+}
+@font-face {
+  font-family: calibreRegular;
+  src: url("../assets/font/Calibre/CalibreWeb-Regular.eot");
+  src: url("../assets/font/Calibre/CalibreWeb-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/Calibre/CalibreWeb-Regular.ttf") format("truetype"), url("../assets/font/Calibre/CalibreWeb-Regular.woff") format("woff"), url("../assets/font/Calibre/CalibreWeb-Regular.woff2") format("woff2");
+  font-weight: bold;
+}
+@font-face {
+  font-family: calibreRegularItalic;
+  src: url("../assets/font/Calibre/CalibreWeb-RegularItalic.eot");
+  src: url("../assets/font/Calibre/CalibreWeb-RegularItalic.eot?#iefix") format("embedded-opentype"), url("../assets/font/Calibre/CalibreWeb-RegularItalic.ttf") format("truetype"), url("../assets/font/Calibre/CalibreWeb-RegularItalic.woff") format("woff"), url("../assets/font/Calibre/CalibreWeb-RegularItalic.woff2") format("woff2");
+  font-weight: bold;
+}
+@font-face {
+  font-family: calibreSemibold;
+  src: url("../assets/font/Calibre/CalibreWeb-Semibold.eot");
+  src: url("../assets/font/Calibre/CalibreWeb-Semibold.eot?#iefix") format("embedded-opentype"), url("../assets/font/Calibre/CalibreWeb-Semibold.ttf") format("truetype"), url("../assets/font/Calibre/CalibreWeb-Semibold.woff") format("woff"), url("../assets/font/Calibre/CalibreWeb-Semibold.woff2") format("woff2");
+  font-weight: bold;
+}
+@font-face {
+  font-family: calibreSemiboldItalic;
+  src: url("../assets/font/Calibre/CalibreWeb-SemiboldItalic.eot");
+  src: url("../assets/font/Calibre/CalibreWeb-SemiboldItalic.eot?#iefix") format("embedded-opentype"), url("../assets/font/Calibre/CalibreWeb-SemiboldItalic.ttf") format("truetype"), url("../assets/font/Calibre/CalibreWeb-SemiboldItalic.woff") format("woff"), url("../assets/font/Calibre/CalibreWeb-SemiboldItalic.woff2") format("woff2");
+  font-weight: bold;
+}
+@font-face {
+  font-family: calibreThin;
+  src: url("../assets/font/Calibre/CalibreWeb-Thin.eot");
+  src: url("../assets/font/Calibre/CalibreWeb-Thin.eot?#iefix") format("embedded-opentype"), url("../assets/font/Calibre/CalibreWeb-Thin.ttf") format("truetype"), url("../assets/font/CalibreWeb-Thin.woff") format("woff"), url("../assets/font/CalibreWeb-Thin.woff2") format("woff2");
+  font-weight: bold;
+}
+@font-face {
+  font-family: calibreThinItalic;
+  src: url("../assets/font/Calibre/CalibreWeb-ThinItalic.eot");
+  src: url("../assets/font/Calibre/CalibreWeb-ThinItalic.eot?#iefix") format("embedded-opentype"), url("../assets/font/Calibre/CalibreWeb-ThinItalic.ttf") format("truetype"), url("../assets/font/Calibre/CalibreWeb-ThinItalic.woff") format("woff"), url("../assets/font/Calibre/CalibreWeb-ThinItalic.woff2") format("woff2");
+  font-weight: bold;
+}
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  font-family: calibreBold;
+  background-color: #ffffff;
+}
+
+h2 {
+  font-family: calibreMedium;
+  font-size: 36px;
+  line-height: 37px;
+  color: #333f4d;
+}
+
+h3 {
+  font-family: calibreSemibold;
+  font-size: 28px;
+  line-height: 34px;
+  color: #333f4d;
+}
+
+p {
+  font-family: calibreRegular;
+  font-size: 18px;
+  line-height: 28px;
+  color: #333f4d;
+}
+
+span, a, img {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+
+header,
+footer {
+  width: 100%;
+  height: 500px;
+  background-color: gray;
+}
+
+section {
+  background: #fbfbfc;
+}
+section.why-use-purview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+section.why-use-purview .btn-book {
+  width: 176px;
+}
+
+.img-card {
+  color: #333f4d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.img-card img {
+  width: 134px;
+  height: 134px;
+}
+.img-card .description {
+  opacity: 0.7;
+}
+
+.btn-book {
+  background-color: #537de6;
+  font-family: calibreMedium;
+  font-size: 18px;
+  line-height: 14px;
+  color: #ffffff;
+  border-radius: 4px;
+  height: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */
