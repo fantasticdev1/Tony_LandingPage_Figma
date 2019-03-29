@@ -168,7 +168,6 @@ section.enable-your-frontline .border-card-container, section.get-daily-visibili
 section.a-management-layer img {
   width: 100%;
 }
-
 .img-card {
   color: #333f4d;
   display: flex;
@@ -195,6 +194,25 @@ section.a-management-layer img {
   background-color: #ffffff;
   border-radius: 8px;
   border-top: solid 7px #39bd81;
+}
+
+.general-card {
+  position: relative;
+  background-color: #ffffff;
+  padding: 30px 30px 30px 50px;
+  height: 100%;
+}
+.general-card::before {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  width: 15px;
+  height: 11px;
+  content: "";
+  background-image: url("../assets/image/check-mark.png");
+}
+.general-card h4 {
+  color: #333f4d;
 }
 
 .btn-book {

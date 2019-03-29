@@ -231,6 +231,9 @@ section {
       width: 100%;
     }
   }
+  &.more-reasons {
+
+  }
 }
 
 .img-card {
@@ -255,6 +258,25 @@ section {
   background-color: $body-bg-color;
   border-radius: 8px;
   border-top: solid 7px $primary-border-color;
+}
+
+.general-card {
+  position: relative;
+  background-color: $body-bg-color;
+  padding: 30px 30px 30px 50px;
+  height: 100%;
+  &::before {
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    width: 15px;
+    height: 11px;
+    content: "";
+    background-image: url('../assets/image/check-mark.png');
+  }
+  h4 {
+    color: $primary-font-color;
+  }
 }
 
 .btn-book {
