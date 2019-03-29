@@ -149,6 +149,13 @@ $secondary-btn-color: #fe7200;
 
 $primary-border-color: #39bd81;
 
+$break-point-xl: 1200px;
+$break-point-lg: 992px;
+$break-point-md: 768px;
+$break-point-sm: 576px;
+$break-point-sm-1: 480px;
+$beak-point-sm-2: 320px;
+
 @mixin flex($direction, $align, $content) {
   display: flex;
   flex-direction: $direction;
