@@ -149,12 +149,10 @@ $secondary-btn-color: #fe7200;
 
 $primary-border-color: #39bd81;
 
-$break-point-xl: 1200px;
-$break-point-lg: 992px;
-$break-point-md: 768px;
-$break-point-sm: 576px;
-$break-point-sm-1: 480px;
-$beak-point-sm-2: 320px;
+$break-point-xl: 1119px;
+$break-point-lg: 991px;
+$break-point-md: 767px;
+$break-point-sm: 574px;
 
 @mixin flex($direction, $align, $content) {
   display: flex;
@@ -213,7 +211,6 @@ span, a, img {
 }
 
 header {
-  position: relative;
   width: 100%;
   height: 870px;
   background:url("../assets/image/hero-image-01.png") no-repeat center bottom;
@@ -224,6 +221,9 @@ header {
     left: 0;
     width: 100%;
     @include flex(row, center, center);
+    .container-fluid {
+      max-width: 1119px;
+    }
     .navbar-nav .nav-link {
       @include font(calibreMedium, 18px, 14px, $section-bg-color);
     }
@@ -259,15 +259,62 @@ header {
       }
     }
   }
+  @media screen and (max-width: $break-point-lg) {
+    .nav-container {
+      .navbar-nav .nav-link {
+        text-align: center;
+      }
+    }
+    #navbarContent {
+      position: fixed;
+      background: rgb(210, 47, 116);
+      color: white;
+      top: 0px;
+      padding: 30px 20px;
+      transition: left 0.3s linear 0s;
+      left: -100%;
+      height: 100vh;
+      width: 100vw;
+      z-index: 1;
+      &.show {
+        left: 0;
+      }
+    }
+  }
+  @media screen and (max-width: $break-point-md) {
+    height: 700px;
+    .nav-container {
+      .btn-book {
+        width: 110px;
+        height: 40px;
+      }
+      .btn-signin {
+        width: 70px;
+        height: 40px;
+      }
+    }
+    .intro-container {
+      .intro {
+        h1 {
+          @include font(calibreSemibold, 45px, 50px, $section-bg-color);
+        }
+        .description {
+          @include font(calibreMedium, 20px, 25px, $section-bg-color);
+        }
+      }
+    }
+  }
 }
 
 section {
   background: $section-bg-color;
   @include flex(column, center, center);
+  margin-top: 30px;
   p {
     opacity: 0.7;
   }
   &.why-use-purview {
+    margin-top: -60px;
     .btn-book {
       width: 176px;
     }
@@ -285,9 +332,6 @@ section {
     img {
       width: 100%;
     }
-  }
-  &.more-reasons {
-
   }
 }
 
